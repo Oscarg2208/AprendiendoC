@@ -39,3 +39,14 @@ if ((int)b != 0) {
     printf("Cociente:   No es posible obtener modulo con cero.\n");
 }
 
+printf("\n===== COMPARACIÓN =====\n");
+if (a > b)
+    printf("%.2lf es MAYOR que %.2lf\n", a, b);
+else if (a == b)
+    printf("%.2lf es IGUAL a %.2lf\n", a, b);
+else
+    printf("%.2lf es MENOR que %.2lf\n", a, b);
+
+    
+    
+    
