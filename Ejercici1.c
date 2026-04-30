@@ -59,7 +59,9 @@ if (inicio <= fin) {
     for (int i = inicio; i >= fin; i--)
         printf("%d ", i);
 }
-
+    printf("\n");
+    return 0;
+}
 
     
 
