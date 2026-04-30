@@ -20,3 +20,9 @@ multi     = a * b;
 potencia  = pow(a, b);
 cociente  = (int)a % (int)b;
 
+printf("\n===== RESULTADOS =====\n");
+printf("Suma:       %.2lf + %.2lf = %.2lf\n", a, b, suma);
+printf("Resta:      %.2lf - %.2lf = %.2lf\n", a, b, resta);
+printf("Multiplic.: %.2lf * %.2lf = %.2lf\n", a, b, multi);
+printf("Potencia:   %.2lf ^ %.2lf = %.2lf\n", a, b, potencia);
+
