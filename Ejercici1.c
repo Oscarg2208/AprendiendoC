@@ -26,3 +26,12 @@ printf("Resta:      %.2lf - %.2lf = %.2lf\n", a, b, resta);
 printf("Multiplic.: %.2lf * %.2lf = %.2lf\n", a, b, multi);
 printf("Potencia:   %.2lf ^ %.2lf = %.2lf\n", a, b, potencia);
 
+if (b != 0) {
+    division = a / b;
+    printf("Division:   %.2lf / %.2lf = %.2lf\n", a, b, division);
+} else {
+    printf("Division:   No es posible dividir entre cero.\n");
+}
+
+
+
