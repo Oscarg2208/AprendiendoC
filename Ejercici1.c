@@ -33,5 +33,9 @@ if (b != 0) {
     printf("Division:   No es posible dividir entre cero.\n");
 }
 
-
+if ((int)b != 0) {
+    printf("Cociente:   %d %% %d = %d\n", (int)a, (int)b, (int)cociente);
+} else {
+    printf("Cociente:   No es posible obtener modulo con cero.\n");
+}
 
