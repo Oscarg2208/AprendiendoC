@@ -7,3 +7,8 @@ int main() {
 
     return 0;
 }
+printf("Ingrese el primer numero:  ");
+scanf("%lf", &a);
+
+printf("Ingrese el segundo numero: ");
+scanf("%lf", &b);
