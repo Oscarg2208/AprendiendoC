@@ -46,7 +46,21 @@ else if (a == b)
     printf("%.2lf es IGUAL a %.2lf\n", a, b);
 else
     printf("%.2lf es MENOR que %.2lf\n", a, b);
+    printf("\n===== SECUENCIA =====\n");
+int inicio = (int)a;
+int fin    = (int)b;
+
+if (inicio <= fin) {
+    printf("Numeros de %d a %d: ", inicio, fin);
+    for (int i = inicio; i <= fin; i++)
+        printf("%d ", i);
+} else {
+    printf("Numeros de %d a %d (descendente): ", inicio, fin);
+    for (int i = inicio; i >= fin; i--)
+        printf("%d ", i);
+}
+
 
     
-    
+
     
